@@ -40,7 +40,7 @@ using random:
         -shuffle(fruits)-fruits is a list 
 using request:
         -requests api in json format
-        -requests.get
+        -requests.get()
 using jason -json-common format for sharing info.
         -result.json()-formats json file for better usability
 
