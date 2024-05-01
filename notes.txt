@@ -67,10 +67,9 @@ for loop :
     -[x**2 for x in list]
     -'_' if the x is not is not necessary inside the loop
 
-if():
+-if():
         xyz
-elif():
+-elif():
         xyz
-
-
+-Concatination of strings can be done by using "+"
 
