@@ -44,6 +44,7 @@ Difference between list,vectors and array:
         list.remove()
         len(list)-find the len of the list
         list[a:b]-making a slice
+                -list[-1] mean last element in list but the notation differs in slicing.
         pop-removes i th element from the list 
         remove-removes the first apperance of the arg in list
 -vector is an np array:
