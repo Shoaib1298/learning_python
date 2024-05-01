@@ -1,12 +1,6 @@
 import random
 import sys
 
-try :
-    print("my name is :",sys.argv[1], ", and this is written in file :",sys.argv[0])
-except IndexError:
-    print("please write ur name")
-
-"shoaib Ahmed " is interprited as a single word shoaib Ahmed in command line
 
 -elif - else if 
 
@@ -19,7 +13,7 @@ what is the difference between list,vectors and array??
 
 
 change the style:
--
+
 
 for loop :
 -for i in range(a,b):
