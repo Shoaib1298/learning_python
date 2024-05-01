@@ -1,22 +1,20 @@
-"""
-this is also an comment
-anything in between these trible cotes 
-
-"""
-
-# I am wondering if I should adapt writing sudo code as comments
 
 # * get input name and print
 
-# name = input("what is your name? ")
-# print("hello,",name)
-# print("hello, " + name)    ##intresting concatination of strings
+name = input("what is your name? ")
+print("hello,",name)
+print("hello, " + name)    ##intresting concatination of strings
 
-# * pop removes i th element from the list and remove removes the first apperance of the arg in list
 
-# list = [0,3,2,3]
-# list.pop(1)
-# print(list)
+list = [0,3,2,3]
+list.pop(1)
+print(list)
+#try and expt function:
+try :
+    print("my name is :",sys.argv[1], ", and this is written in file :",sys.argv[0])
+except IndexError:
+    print("please write ur name")
+
 
 #! new and intresting
 
