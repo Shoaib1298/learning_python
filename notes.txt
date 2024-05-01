@@ -2,11 +2,15 @@ import random
 import sys
 import csv
 import cowsay
+import requests-requests api.
+import json-common format for sharing info.
 
 -black - package to format code.
 -python runs top to bottom left to right
 -Adapt writing sudo code as comments
 -never hardcode numbers.
+-def main():
+-if __name__ == "__main__":
 
 ## Better_comments##
 # ? why is this true
