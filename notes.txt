@@ -20,3 +20,16 @@ what is the difference between list,vectors and array??
 
 change the style:
 -
+
+for loop :
+-for i in range(a,b):
+-for x in y:
+        y = list/Dis/array/...
+        x assumes the individual element of the y
+            if y is Distnary then x assumes key[i]
+            if y is obj of csv.DistReader() then y assume the dis contain in my example {"name":bla, "school":blabla}
+            always this type of using for loop is used uniquely as in case of Distonary example
+        
+    -[x**2 for x in list]
+    -'_' if the x is not is not necessary inside the loop
+list have len and np.array have .shape {note the lack of ()}
