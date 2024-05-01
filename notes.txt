@@ -2,9 +2,8 @@ import random
 import sys
 import csv
 import cowsay
-import requests-requests api.
-import json-common format for sharing info.
-
+import requests
+import json
 -black - package to format code.
 -python runs top to bottom left to right
 -Adapt writing sudo code as comments
@@ -39,7 +38,12 @@ using random:
         -random.choice(["up", "down"])
         -random.randint(1, 10)
         -shuffle(fruits)-fruits is a list 
-        
+using request:
+        -requests api in json format
+        -requests.get
+using jason -json-common format for sharing info.
+        -result.json()-formats json file for better usability
+
 Difference between list,vectors and array:
 -list =[]
         list is dynamic and has many methods  
