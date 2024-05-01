@@ -11,7 +11,7 @@ num = random.randint(1, 10)
 
 print(num)
 
-todo random.shuffle
+
 
 fruits = ["apple","banana","orange"]
 
