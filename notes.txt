@@ -1,10 +1,19 @@
 import random
 import sys
 import csv
+import cowsay
 
-black - package to format code.
+-black - package to format code.
+-python runs top to bottom left to right
+-Adapt writing sudo code as comments
+-never hardcode numbers.
 
-
+## Better_comments##
+# ? why is this true
+# ! wait a ,something is wrong
+# //my name is khan
+# *apple
+# todo banana
 
 Cotes:
 
@@ -17,13 +26,16 @@ anything in between these trible cotes
 """
 3)"" and '' can be used interchangable and certain times alternating use is necessary
 
+lib:
 
 using sys lib:
-        -for arg in sys.argv(inline arguments)
+        -for arg in sys.argv(commandline arguments)
         -sys.exit()
-
-
-
+using random:
+        -random.choice(["up", "down"])
+        -random.randint(1, 10)
+        -shuffle(fruits)-fruits is a list 
+        
 Difference between list,vectors and array:
 -list =[]
         list is dynamic and has many methods  
@@ -32,18 +44,11 @@ Difference between list,vectors and array:
         list.remove()
         len(list)-find the len of the list
         list[a:b]-making a slice
-
+        pop-removes i th element from the list 
+        remove-removes the first apperance of the arg in list
 -vector is an np array:
         array.shape
 
-        
-
--never hardcode numbers.
-
-
-change the style:
-
--elif - else if 
 
 for loop :
 -for i in range(a,b):
@@ -56,4 +61,11 @@ for loop :
         
     -[x**2 for x in list]
     -'_' if the x is not is not necessary inside the loop
-list have len and np.array have .shape {note the lack of ()}
+
+if():
+        xyz
+elif():
+        xyz
+
+
+
