@@ -65,14 +65,14 @@ if len(sys.argv) == 2:
 import requests
 import json
 
-# if len(sys.argv)!=2:
-#     sys.exit()
+if len(sys.argv)!=2:
+    sys.exit()
 
-# result = requests.get("https://http//itunes.apple.com/search?entity=song&limit=50&term=weezer")
-# o = result.jason()
+result = requests.get("https://http//itunes.apple.com/search?entity=song&limit=50&term=weezer")
+o = result.json()
 
-# for result in o["results"]:
-#     print(result["trackName"])
+for result in o["results"]:
+    print(result["trackName"])
 
 
 
