@@ -1,19 +1,49 @@
 import random
 import sys
+import csv
+
+black - package to format code.
 
 
--elif - else if 
 
--for arg in sys.argv:
+Cotes:
+
+1)"shoaib Ahmed" is interprited as a single word shoaib Ahmed in command line
+
+2)"""
+this is also an comment
+anything in between these trible cotes 
+
+"""
+3)"" and '' can be used interchangable and certain times alternating use is necessary
 
 
-what is the difference between list,vectors and array??
+using sys lib:
+        -for arg in sys.argv(inline arguments)
+        -sys.exit()
+
+
+
+Difference between list,vectors and array:
+-list =[]
+        list is dynamic and has many methods  
+        list.append()
+        list.pop()
+        list.remove()
+        len(list)-find the len of the list
+        list[a:b]-making a slice
+
+-vector is an np array:
+        array.shape
+
+        
 
 -never hardcode numbers.
 
 
 change the style:
 
+-elif - else if 
 
 for loop :
 -for i in range(a,b):
