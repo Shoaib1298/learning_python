@@ -47,10 +47,10 @@ for arg in sys.argv[1:] :
     print("name of coder is :",arg)
 
 
-#! arr[-1] mean last element but the notation differs in slicing
+! arr[-1] mean last element but the notation differs in slicing
 
-# apple = [1,2,3,4]
-# print(apple[0:-1])
+apple = [1,2,3,4]
+print(apple[0:-1])
 
 # todo cowsay
 
@@ -62,24 +62,23 @@ if len(sys.argv) == 2:
 
 # * not important for now
 
-# import requests
-# import json
+import requests
+import json
 
 # if len(sys.argv)!=2:
 #     sys.exit()
 
 # result = requests.get("https://http//itunes.apple.com/search?entity=song&limit=50&term=weezer")
 # o = result.jason()
-# #! to understand this i need to have a clear understanding of Dic
+
 # for result in o["results"]:
 #     print(result["trackName"])
 
-#!   most intresting
 
-# def main():
-#     print("apple")
 
-# if __name__ == "__main__":
-#     main()
+def main():
+    print("apple")
 
-# todo style: use black python reformatter
+if __name__ == "__main__":
+    main()
+
