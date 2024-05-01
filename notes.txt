@@ -1,0 +1,22 @@
+import random
+import sys
+
+try :
+    print("my name is :",sys.argv[1], ", and this is written in file :",sys.argv[0])
+except IndexError:
+    print("please write ur name")
+
+"shoaib Ahmed " is interprited as a single word shoaib Ahmed in command line
+
+-elif - else if 
+
+-for arg in sys.argv:
+
+
+what is the difference between list,vectors and array??
+
+-never hardcode numbers.
+
+
+change the style:
+-
